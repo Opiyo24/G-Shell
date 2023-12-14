@@ -1,0 +1,37 @@
+pwd
+    - Print working directory
+cd
+    - Change directory
+ls
+    - List directory items
+
+HE ls
+    - We can enter ls to get a list of files and subdirectories contained inthe current working directory.
+
+    - Beside the current diorectory, we can specify the directory to list.
+        >> ls /usr
+
+    - We can even specify multiple directories
+        >> ls ~ /usr
+
+    - We can also change the fpormat of the output to reveal more detail.
+        >> ls -l
+        >> la -a
+
+
+COMMAND OPTIONS AND ARGUMENTS
+    - Commands are often followed by one or more options that modify their behavior, and further, by one or more arguments, the items upon which the command acts.
+
+        >> command -options arguments
+
+
+File Command
+    - When invoked, the file command will print a brief description of the file's contents
+        >> file filename
+    
+    American Standard Code for Information Interchange
+
+
+    SYMBOLIC LINKS
+        - Also knownm as soft link 
+        - Its possible to have a file referenced by multipl file names
