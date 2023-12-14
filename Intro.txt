@@ -1,0 +1,6 @@
+DATE COMMAND
+     - Displays the current date and tme
+df
+    - Displays disc information
+free
+    - Displays the amount of free memory
