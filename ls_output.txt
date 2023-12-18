@@ -1,0 +1,16 @@
+Intro.txt
+Navigation.txt
+Redirection.txt
+command.txt
+files.txt
+ls_output.txt
+playground
+total 12
+-rwxrwxrwx 1 root root  139 Dec 14 10:17 Intro.txt
+-rwxrwxrwx 1 root root 1065 Dec 14 21:55 Navigation.txt
+-rwxrwxrwx 1 root root 1118 Dec 18 06:41 Redirection.txt
+-rwxrwxrwx 1 root root  695 Dec 18 06:29 command.txt
+-rwxrwxrwx 1 root root 1273 Dec 15 06:03 files.txt
+-rwxrwxrwx 1 root root   88 Dec 18 06:43 ls_output.txt
+drwxrwxrwx 1 root root 4096 Dec 15 05:52 playground
+ls: cannot access 'lachow': No such file or directory

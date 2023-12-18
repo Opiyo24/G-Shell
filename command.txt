@@ -16,3 +16,6 @@ ALIAS
 
     3. Create our alias
         >> alias new_alias='cd /usr; ls; cd -'
+
+    - To remove an alias, the unalias command is used
+        >> unalias nes_alias

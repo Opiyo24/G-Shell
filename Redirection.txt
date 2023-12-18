@@ -1,0 +1,34 @@
+I/O REDIRECTION
+
+    - We can redirect the input and output of commands to and from files.
+    - Connect ultiple command together into powerfull command pipelines.
+
+            cat - concatenate files
+            sort - sort lines of text
+            uniq - report or omit repeated lines
+            grep - print lines matching a pattern
+            wc - print newline, word, and byte counts for each files
+            head - output the first part of a files
+            tail - output the last part of a files
+            tee - read from strandard output and write to standard output and files.
+
+STANDARD INPUT OUTPUT AND ERROR
+- command results are sent to a special file called Standard output (stdout)
+- Command errors are sent to a special file called standard error (stderr)
+    - By default, both stdout and stdin are linked to the screen and not saved to the disk
+
+
+
+- To redirect stdout to a file we se '>' followed by the name of the file.
+    - Tell the shell to semd the putput of the las command to the ls-output.txt in stead of the screen
+
+        >> ls > ls-output.txt
+
+- Redirecting standard error lacks the ease of a dedicated redirection operator.
+- While we have refered to the forst three file streams as standard input, standard output and standard error,
+the shell references them internally as file descriptors 0, 1 and 2 respectively.
+- The shell provide sa notation for redirecting files using teh file descriptor number.
+- Since the standard error is the same as file descriptor number 2, we can redirect stderr as follows
+    >> ls -l /directory/path 2> ls_error.txt
+
+    
