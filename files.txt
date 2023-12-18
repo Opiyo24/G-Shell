@@ -1,0 +1,35 @@
+MANIPULATING FILES AND DIRECTORIES
+
+
+    cp - copy files and directpries
+    mv - mode/ rename files and DIRECTORIES
+    mkdir - create DIRECTORIES
+    rm - Remove files and directories 
+    ln - create hard symbolic links.
+
+        >> cp -u *.html destination
+
+        - Copy all the html files from one directory to another but only copy the files that do not exist in the 
+        destination directory or are newer tha the versions in the destination directory.
+
+
+    WILDCARDS
+        *   Matches any character
+        ?   Matches any single character
+        [characters]    Matches any character that is a member of the set characters
+        [!characters]   matches any charactyer that is not a member of the set characters.
+        [[:class:]]     Matches any cgaracter that is a member of the specified class
+
+
+        COMMONLY USED CLASSES
+        [:alnum:] - any alphanumeric character
+        [:alpha:] - any alphabetic character
+        [:digit:] - matches any numeral
+        [:lower:] - any lowercase character
+        [:upper:] - any uppercase character 
+
+    THE ln COMMAND
+        - Used to create either hard or symbolic links
+            >> ln file link (hard link)
+
+            >> ln -s item link (symbolic link - item is eityher a  file or directory)

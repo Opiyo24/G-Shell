@@ -1,0 +1,18 @@
+ALIAS
+
+    - Helps create a command of our own using the ALIAS command
+    - It is possible to put more than one command on a line by separating each command witha  semi-colon.
+
+        >> command1; command2; command3
+        >> cd /usr; ls; cd -
+
+            - Change diorctory to usr
+            - List teh directory
+            - Return to the priginal directory
+
+    1. Dream up a name for our new command - alias
+    - Find out if the name is already being used using the type command
+            >> type new_alias
+
+    3. Create our alias
+        >> alias new_alias='cd /usr; ls; cd -'
