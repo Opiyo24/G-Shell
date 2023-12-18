@@ -29,6 +29,32 @@ STANDARD INPUT OUTPUT AND ERROR
 the shell references them internally as file descriptors 0, 1 and 2 respectively.
 - The shell provide sa notation for redirecting files using teh file descriptor number.
 - Since the standard error is the same as file descriptor number 2, we can redirect stderr as follows
-    >> ls -l /directory/path 2> ls_error.txt
+    >> ls -l /directory/path 2> ls_error.tx
 
-    
+
+REDIRECTING STANDARD OUTPUT AD STANDARD ERROR TO ONE file
+    >> ls -l /directory/path > ls_output.txt 2>&1
+
+    - Using this method, we redirect standard output to the file ls_output.txt and then we redirect
+    the file descriptor 2 stderr to file descriptor 1 stdin using the  notation 2>&1
+
+    >> ls -l /directory/path &> ls_output.txt
+
+    - we use the notation &> to redirect both the stdout and stderr to a single file
+
+
+DISPOSING OF UNWANTED OUTPUT
+    - Redirectimg output to a special file called "/dev/null"
+    - To supress error meaasges from a command,
+        >> ls -l /directory/path 2> /dev/null
+
+
+REDIRECTING STANDARD INPUT
+    - The cat command reads one or more files and copies them to standard output.
+        >> cat file
+
+
+
+TEH PIPELINE OPERATOR 
+    - Using the pipeline operator, te stdout of one command can be piped to the stdin of another
+        >> command1 | command2 
