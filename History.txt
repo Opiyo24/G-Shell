@@ -1,0 +1,642 @@
+    1  ls
+    2  exot
+    3  exit
+    4  ls
+    5  ls -a
+    6  vi .bashrc
+    7  vi .profile
+    8  exit
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd home
+   13  ls
+   14  sudo apt install mysql-server
+   15  sudo apt update
+   16  sudo apt install mysql-server
+   17  ls
+   18  mysql --version
+   19  python --version
+   20  sudo apt install python3
+   21  python3
+   22  node --version
+   23  node
+   24  apt install nodejs
+   25  ls
+   26  mkdir Today
+   27  ls
+   28  git clone https://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@github.com/AirBnB_clone_v2.git
+   29  git clone https://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@github.com/Masayaelvin/AirBnB_clone_v2.git
+   30  sl
+   31  ls
+   32  sudo apt upgrade python3
+   33  ls
+   34  cd AirBnB_clone_vs
+   35  cd AirBnB_clone_v2
+   36  ls
+   37  py --version
+   38  python3
+   39  ls
+   40  python3 -m unittest discover tests
+   41  cd ..
+   42  install mysql
+   43  mysql
+   44  cd AirBnB_Clone_v2
+   45  cd AirBnB_clone_v2
+   46  ls
+   47  touch setup_mysql_dev.sql
+   48  ls
+   49  vi setup_mysql_dev.sql
+   50  cat setup_mysql_dev.sql | mysql -hlocalhost -uroot -p
+   51  vi setup_mysql_dev.sql
+   52  cat setup_mysql_dev.sql | mysql -hlocalhost -uroot -p
+   53  vi setup_mysql_dev.sql
+   54  cat setup_mysql_dev.sql | mysql -hlocalhost -uroot -p
+   55  vi setup_mysql_dev.sql
+   56  cat setup_mysql_dev.sql | mysql -hlocalhost -uroot -p
+   57  ls
+   58  clear
+   59  mysql
+   60  ls
+   61  cp setup_mysql_dev.sql setup_mysql_test.sql
+   62  ls
+   63  vi setup_mysql_test.sql
+   64  cat setup_mysql_test.sql | mysql -hlocalhost -uroot -p
+   65  mysql
+   66  git add .
+   67  git commit -m "Test and dev"
+   68  git push
+   69  git pull
+   70  git config -global user.name "Opiyo24"
+   71  git config --global user.name "Opiyo24"
+   72  git config --global user.email "gabbynyangor@gmail.com"
+   73  git pull
+   74  git config pull.rebase false
+   75  git pull
+   76  ls
+   77  ls -a
+   78  cd models
+   79  ls
+   80  cd ..
+   81  vi gitignore
+   82  git config pull.rebase false
+   83  git pull
+   84  git add .
+   85  git commit -m "SQL"
+   86  git push
+   87  exit
+   88  git clone https://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@github.com/AirBnB_clone_v2.git
+   89  git clone https://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@github.com/Masayaelvin/AirBnB_clone_v2.git
+   90  ls
+   91  cd AirBnB_clone_v2
+   92  ls
+   93  clear
+   94  python3 console.py
+   95  ls
+   96  git add .
+   97  git commit -m "refactor is =="
+   98  git push
+   99  ls
+  100  python3 -m unittests discover tests
+  101  ls
+  102  python3 -m unittests discover tests
+  103  pip install unittests
+  104  install python3 pip
+  105  apt install python3 pip
+  106  apt install python3-pip
+  107  pip install unittests
+  108  pip install unittest
+  109  mysql
+  110  MYSQL
+  111  mysql
+  112  ls
+  113  python3 -m unittest discover tests
+  114  pip install sqlalchemy
+  115  python3 -m unittest discover tests
+  116  pip install pytest
+  117  python3 -m unittest discover tests
+  118  git add .
+  119  git commit -m "Tests and more tests"
+  120  git push
+  121  exit
+  122  git pull
+  123  ls
+  124  exit
+  125  mysql
+  126  exit
+  127  ls
+  128  git clone https://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@github.com/Opiyo24/alx-system_engineering-devops.git
+  129  ls
+  130  cd alx-system_engineering-devops
+  131  ls
+  132  git config --global user.name "Opiyo24"
+  133  git config --global user.email "gabbynyangor@gmail.com"
+  134  apt-get install -y ruby=1:2.7+1 --allow downgrades
+  135  apt-get install -y ruby=1:2.7+1 --allow-downgrades
+  136  apt-get install -y puppet
+  137  ssh-keygen -t rsa
+  138  ls
+  139  cd ..
+  140  ls
+  141  ls -a
+  142  cd .ssh
+  143  ls
+  144  vi id_rsa
+  145  vi id_rsa.pub
+  146  ls
+  147  vi id_rsa.pub
+  148  ls
+  149  cd ..
+  150  cd .ssh
+  151  ls
+  152  vi id_rsa.pub
+  153  mv id_rsa.pub school.pub
+  154  ls
+  155  mv id_rsa school
+  156  ls
+  157  vi school.pub
+  158  cd ..
+  159  ls
+  160  cd alx-system_engineering-devops
+  161  ls
+  162  mkdir 0x0B-ssh
+  163  cd 0x0B-ssh
+  164  ls
+  165  vi README.md
+  166  clear
+  167  ls
+  168  vi 1-create_ssh_key_pair
+  169  ls
+  170  ./1-create_ssh_key_pair
+  171  chmod u+x 1-create_ssh_key_pair
+  172  ls
+  173  ./1-create_ssh_key_pair
+  174  vi 1-create_ssh_key_pair
+  175  ls
+  176  ./1-create_ssh_key_pair
+  177  vi 1-create_ssh_key_pair
+  178  ./1-create_ssh_key_pair
+  179  ls
+  180  cd ..
+  181  ls -l
+  182  ls -a
+  183  cd ~
+  184  ls -a
+  185  cd .ssh
+  186  ls
+  187  vi school
+  188  vi school.pub
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd alx-system_engineering-devops
+  193  ls
+  194  cd 0x0B-ssh
+  195  ls
+  196  vi 0-use_a_private_key
+  197  chmod u+x 0-use_a_private_key
+  198  ls
+  199  ./0-use_a_private_key
+  200  vi 0-use_a_private_key
+  201  ./0-use_a_private_key
+  202  ls
+  203  vi 2-ssh_config
+  204  ls
+  205  chmod u+x 2-ssh_config
+  206  ls
+  207  cd ~
+  208  ls
+  209  ls -a
+  210  cd .ssh
+  211  ls
+  212  ls -a
+  213  vi config
+  214  ls
+  215  cd ..
+  216  ls
+  217  ssh -v ubuntu@54.175.47.5
+  218  s
+  219  ls
+  220  ssh -v ubuntu@54.175.47.5
+  221  xit
+  222  exit
+  223  ls
+  224  cd ~
+  225  ls -a
+  226  cd .ssh
+  227  ls
+  228  ls -a
+  229  ssh -v ubuntu@54.175.47.5
+  230  cd ~
+  231  ls
+  232  cd alx-system_engineering-devops
+  233  ls
+  234  git add .
+  235  git commit -m "Connecting to server"
+  236  git push
+  237  vi school
+  238  vi school.pub
+  239  ls
+  240  mv school school.pub 0x0B-ssh
+  241  ls
+  242  cd 0x0B-ssh
+  243  ls
+  244  git add .
+  245  git commit -m "Public private"
+  246  git push
+  247  exit
+  248  cd ~
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd alx-system_engineering-devops
+  253  ls
+  254  cd 0x0A-configuration_management
+  255  ls
+  256  chmod u+x 0-ctreate_a_file.pp
+  257  chmod u+x 0-create_a_file.pp
+  258  ls
+  259  ./ 0-cretae_a_file.pp
+  260  ./0-cretae_a_file.pp
+  261  ./0-create_a_file.pp
+  262  exit
+  263  ls
+  264  cd ..
+  265  ls
+  266  ls -a
+  267  cd etc
+  268  ls
+  269  ls -a
+  270  exit
+  271  ls
+  272  cd root
+  273  cd /root
+  274  ls
+  275  ls -a
+  276  cd /.ssh
+  277  cd ./ssh
+  278  cd .ssh
+  279  ls
+  280  vi known_hosts
+  281  exit
+  282  ssh ubuntu@54.175.47.5
+  283  exit
+  284  ls
+  285  cd alx-system_engineering-devops
+  286  ls
+  287  mkdir 0x0E-web_stack_debugging_1
+  288  ls
+  289  cd 0x0E-web_stack_debugging_1
+  290  ls
+  291  vi README.md
+  292  ls
+  293  git add .
+  294  git commit -m "We stack debugging"
+  295  git push
+  296  vi 0-nginx_likes_Port_80
+  297  vi 1-debugging_made_short
+  298  git add .
+  299  git commit -m "Files"
+  300  git push
+  301  ls
+  302  chmod u+x 0-nginx_likes_port_80 1-debugging_made_short
+  303  ls
+  304  mv 0-nginx_likes_Port_80 0-nginx_likes_port_80
+  305  ls
+  306  chmod u+x 0-nginx_likes_port_80 1-debugging_made_short
+  307  ls
+  308  git add '
+  309  git add .
+  310  git commit -m "Executables"
+  311  git push
+  312  clear
+  313  ls
+  314  cd ..
+  315  ls
+  316  mkdir 0x10-https_ssl
+  317  cd 0x10-https_ssl
+  318  ls
+  319  vi README.md
+  320  vi 0-world_wide_web
+  321  vi 1-haproxy_ssl_termination
+  322  vi 100-redirect_http_to_https
+  323  chmod u+x *
+  324  ls
+  325  chmod u-x README.md
+  326  ls
+  327  git add .
+  328  git commit -m "Haproxy"
+  329  git push
+  330  cd ..
+  331  ls
+  332  cd ..
+  333  ls
+  334  git clone https://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@github.com/Opiyo24/AirBnB_clone_v2.git
+  335  ls
+  336  cd AirBnB_clone_v2
+  337  ls
+  338  git config --global uiser.name "Opiyo24"
+  339  git config --global user.email "gabbynyangor@gmail.com"
+  340  ls
+  341  vi setup_mysql_dev.sql
+  342  exit
+  343  ls
+  344  cd ..
+  345  ls
+  346  cd home
+  347  ls
+  348  cd Today
+  349  ls
+  350  ls -a
+  351  vi New
+  352  chmod u+x New
+  353  ls
+  354  ./New
+  355  gcc New -o New
+  356  gcc New -o Newa
+  357  ls
+  358  exit
+  359  ls
+  360  cd G-Shell
+  361  ls
+  362  git add .
+  363  git commit -m "notes"
+  364  git push
+  365  date
+  366  cal
+  367  apt install cal
+  368  df
+  369  clear
+  370  free
+  371  ls
+  372  mcv Notes.txt Intro.txt
+  373  mv Notes.txt Intro.txt
+  374  ls
+  375  git add .
+  376  git commit -m "Intro"
+  377  git push
+  378  touch Navigation
+  379  clear
+  380  mv Navigation Navigation.txt
+  381  ls
+  382  less Navigation.txt
+  383  ls
+  384  less Intro.txt
+  385  ls
+  386  sudo mv Navigation
+  387  mv Navigation
+  388  ls
+  389  cat Navigation
+  390  wq
+  391  cat Navigation.txt
+  392  pwd
+  393  ls
+  394  ls G-Shell /usr
+  395  ls ./ /usr
+  396  ls -lt
+  397  ls la
+  398  ls -la
+  399  ls -F
+  400  ls -F Desktop
+  401  ls -F ../
+  402  clear
+  403  ls -h
+  404  ls -ah
+  405  ls -ha
+  406  ls -la -h
+  407  ls -h
+  408  file Intro.txt
+  409  less /etc/passwd
+  410  less /etc/pls ~/
+  411  ls ~
+  412  git add .
+  413  git commit -m "More on commands"
+  414  git push
+  415  echo 'MANIPULATING FILES AND DIRECTORIES' > files.txt
+  416  mkdir playground
+  417  ls
+  418  mkdir /playground/dir1 /playground/dir2
+  419  mkdir playground/dir1 playground/dir2
+  420  ls
+  421  cd playground
+  422  ls
+  423  ls ~/etc
+  424  ls home/etc
+  425  ls /etc/passwd
+  426  ls -a /etc/passwd
+  427  cd dir1
+  428  touch doc
+  429  ls
+  430  lndoc fuin
+  431  ls
+  432  ls -a
+  433  ln doc fun
+  434  ls
+  435  echo hello >> doc
+  436  ls
+  437  cat fun
+  438  less fun
+  439  ln -s doc hub
+  440  ls
+  441  les hub
+  442  less hub
+  443  ls -l
+  444  date
+  445  ls -li
+  446  exit
+  447  ls
+  448  cd "C:\Windows\System32\drivers\Hello.sys"
+  449  cd ..
+  450  cd C:\Windows\System32\drivers
+  451  ls
+  452  cd c
+  453  ls
+  454  cd Windows
+  455  ls
+  456  cd System32
+  457  ls
+  458  cd drivers
+  459  ls
+  460  ls -la
+  461  rm -r Hello.sys
+  462  sudo rm -r Hello.sys
+  463  ls -la Hello.sys
+  464  echo  > Hello.sys
+  465  sudo echo  > Hello.sys
+  466  vi Hello.sys
+  467  ls
+  468  cd G-Shell
+  469  ls
+  470  echo *
+  471  ls
+  472  echo R*
+  473  echo i*
+  474  echo I*
+  475  echo *.txt
+  476  echo [[:lower:]]*
+  477  echo 5 divided by 2 is $((5/2)) with $((5%2)) left over 
+  478  echo Front-{A, B, C}-Back
+  479  echo Front - {A, B, C} - Back
+  480  echo Number_{1..5}
+  481  echo Front - {A..C} - Back
+  482  echo Front-{A..C}-Back
+  483  echo {00..15}
+  484  echo {Z..A}
+  485  echo a{A{1..2}..B{3..4}}b
+  486  echo a{A{1..2},B{3..4}}b
+  487  cd playground
+  488  ls
+  489  mkdir {1..12}-2023
+  490  ls
+  491  rm -r *
+  492  ls
+  493  mkdir {1..31}-{1..12}-2023
+  494  ls
+  495  ls -a
+  496  ls -l
+  497  echo $USER
+  498  printenv | less
+  499  ssh ubuntu@54.237.49.51
+  500  cd ~/.ssh
+  501  ls
+  502  ssh ubuntu@54.175.47.5
+  503  apt-get install --no-install-recommends software-properties-common
+  504  add-apt-repository ppa:vbernat/haproxy-2.8
+  505  apt-get install haproxy=2.8.\*
+  506  ls
+  507  cd alx-system_engineering-devops
+  508  ls
+  509  cd ssh
+  510  cd 0x0B-ssh
+  511  ls
+  512  cd ..
+  513  cd 0x0A-configuration_management
+  514  ls
+  515  vi 2-execute_a_command.pp
+  516  vi 1-install_a_package.pp
+  517  ls
+  518  c ..
+  519  cd 0x0B-ssh
+  520  cd ..
+  521  cd 0x0B-ssh
+  522  ls
+  523  cd ..
+  524  ls
+  525  cd 0x0C-web_server
+  526  ls
+  527  vi 0-transfer_file
+  528  ./0-transfer_file
+  529  cd ..
+  530  ls
+  531  cd ..
+  532  ls
+  533  ls -l
+  534  ls -a
+  535  cd etc
+  536  ls
+  537  cd ssh
+  538  ls
+  539  cd ..
+  540  ls
+  541  ls -a
+  542  cd ssh
+  543  ls
+  544  ls -a
+  545  cd ..
+  546  ls -a
+  547  cd usr
+  548  ls
+  549  ls -a
+  550  cd ..
+  551  cd ~
+  552  ls
+  553  ls -a
+  554  ls
+  555  cd alx-syetsm_engineering-devops
+  556  cd alx-system_engineering-devops
+  557  ls
+  558  cd 0x0C-web_server
+  559  ls
+  560  0-transfer_file
+  561  ./0-transfer_file
+  562  ./0-transfer_file 54.237.49.51 ubuntu ~/.ssh/school
+  563  ./0-transfer_file 54.237.49.51 341342-web-02 ~/.ssh/school
+  564  ./0-transfer_file ubuntu@54.237.49.51 341342-web-02 ~/.ssh/school
+  565  ssh-copy-id -i ~/.ssh/school.pub ubuntu@54.237.49.51
+  566  ssh ubuntu@54.237.49.51
+  567  ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@54.237.49.51
+  568  ssh ubuntu@54.237.49.51
+  569  ssh-copy-id -i /.ssh/school.pub ubuntu@54.237.49.51
+  570  cd .ssh
+  571  ls
+  572  ssh-copy-id -i /.ssh/id_rsa.pub ubuntu@54.237.49.51
+  573  ssh-copy-id -i ../.ssh/id_rsa.pub ubuntu@54.237.49.51
+  574  ssh-copy-id -i ../.ssh/school.pub ubuntu@54.237.49.51
+  575  ssh ubuntu@54.237.49.51
+  576  ssh-copy-id -i ../.ssh/id_rsa.pub ubuntu@54.237.49.51
+  577  ssh-copy-id -i ../.ssh/school.pub ubuntu@54.237.49.51
+  578  ssh ubuntu@54.237.49.51
+  579  ssh ubuntu@54.175.47.5
+  580  ssh ubuntu@52.3.251.131
+  581  ssh-copy-id -i ../.ssh/school.pub ubuntu@52.3.251.131
+  582  ssh-copy-id -f ../.ssh/school.pub ubuntu@52.3.251.131
+  583  ssh ubuntu@52.3.251.131
+  584  ssh ubuntu@54.90.35.75
+  585  ssh-copy-id -i ../.ssh/school.pub ubuntu@54.90.35.75
+  586  cd ..
+  587  ls
+  588  ssh ubuntu@54.90.35.75
+  589  ssh-copy-id -i ~/.ssh/school.pub ubuntu@54.90.35.75
+  590  ssh -i ~/.ssh/school ubuntu@54.90.35.75
+  591  ssh -i ~/.ssh/school ubuntu@54.237.49.51
+  592  ssh ubuntu@54.237.49.51
+  593  ssh -v ubuntu@54.237.49.51
+  594  ssh -i ~/.ssh/school ubuntu@54.237.49.51
+  595  s -a
+  596  ls -a
+  597  cd .ssh
+  598  ls
+  599  vi config
+  600  ls
+  601  cd ..
+  602  ls
+  603  lscd .ssh
+  604  cd .ssh
+  605  ls
+  606  vi config
+  607  ls
+  608  ssh -i ~/.ssh/school ubuntu@54.237.49.51
+  609  ssh -i ~/.ssh/school ubuntu@54.90.35.75
+  610  exit
+  611  ls
+  612  echo 4user
+  613  echo $user
+  614  echo $USER
+  615  CLEAR
+  616  clear
+  617  printenv | less
+  618  echo $(ls)
+  619  ls
+  620  echo this is a     test
+  621  echo the total is $100.00
+  622  echo then total is $(100.00)
+  623  cal
+  624  apt install ncal
+  625  echo cal
+  626  cal
+  627  echo "$(cal)"
+  628  echo $(cal)
+  629  sleep 10; echo -e "Time is up\a"
+  630  sleep 10; echo "Time is up\a"
+  631  alias push="git add .; git commit -m "More notes"; git push"
+  632  alias push='git add .; git commit -m "More notes"; git push'
+  633  push
+  634  touch 'Advanced Keyboard Tricks.txt'
+  635  clear
+  636  history
+  637  echo history > ./History.txt
+  638  echo $(history) > ./History.txt
+  639  echo $(history) >> ./History.txt
+  640  echo $"(history)" >> ./History.txt
+  641  echo "$(history)" >> ./History.txt
+  642  echo "$(history)" > ./History.txt
