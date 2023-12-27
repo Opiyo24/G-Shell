@@ -55,6 +55,91 @@ REDIRECTING STANDARD INPUT
 
 
 
-TEH PIPELINE OPERATOR 
-    - Using the pipeline operator, te stdout of one command can be piped to the stdin of another
+THE PIPELINE OPERATOR 
+    - Using the pipeline operator, the stdout of one command can be piped to the stdin of another
         >> command1 | command2 
+
+
+FILTERS
+    - Filters take input, change it somehow, and then output it.
+    - Imagine we wanted to make a combined list of all the executable programs in /bin and /usr/bin, put them in sorted order and view the resulting list.
+
+        >> ls /bin /usr/bin | sort | less
+
+        - lis the contents of /bin and /usr/bin together
+        - Sort the list
+        - show tyhe reesult
+
+
+
+WC COMMAND 
+    - Used to display the number of lines, words and bytes contained in files
+        >> wc ls_output.txt
+        16  81  526
+        lines   words   bytes
+
+    - To see the number of items in our sorted list,
+        >> ls /./ /../ | sort | uniq | wc -l 
+
+
+GREP 
+    - Used to find text patterns within files 
+        >> grep pattern file
+
+    - Whe  grep encounters a pattern in the file, it prints out the pines containing it.
+
+
+HEAD / TAIL 
+    - By default both commands print ten lines unless adjusted by using the '-n' option
+        >> tail -n 5
+
+
+EXPANSION
+    - Echo - prints text arguments to stdout
+
+
+    BRACE EXPANSION 
+        - We can create multiple text strings from a pattern containing braces.
+
+            >> echo Front-{A..C}-Back
+            Front-A-Back Front-B-Back Front-C-Back
+
+            >> echo {00..15}
+            00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15
+
+            >> echo {Z..A}
+            Z Y X W V U T S R Q P O N M L K J I H G F E D C B A
+
+
+
+        - Brace expansions may be nested.
+            >> echo a{A{1..2}, B{3..4}}b
+            aA1b aA2b aB3b aB4b
+
+
+        - The most common application is to make lists of files or directories to be created.
+            >> mkdir {1..31}-{1..12}-2023
+                - Creates directories 1 to 31 of 1 to 12 of 2023
+
+PARAMETER EXPANSION
+    - 
+
+
+
+COMMAND SUBSTITUTION
+    - Allows us to use the outputof a command as an expression.
+        >> echo $(ls)
+
+
+QUOTING
+    Double Qoutes
+        - If we place text inside double quotes, all the special characters lose their special meaning and  are treated as ordinary
+        characters.
+
+    Single quotes
+        - Supresses all expansions
+
+ESCAPING CHARACTERS 
+    - Predeeing a character with a backlash.
+    - Often done inside double quotes to selectively supress an expansion.
+    - To allow a backlash character to appear, we escape it by typing \\
